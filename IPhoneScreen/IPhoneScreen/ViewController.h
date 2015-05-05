@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) UIView *cardView;
+
+
+
+- touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event;
 
 @end

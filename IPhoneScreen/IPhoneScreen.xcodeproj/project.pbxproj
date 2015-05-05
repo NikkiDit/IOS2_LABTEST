@@ -21,6 +21,7 @@
 		B35532CA1AF93F7600B20A03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B35532AC1AF93F7600B20A03 /* UIKit.framework */; };
 		B35532D21AF93F7600B20A03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B35532D01AF93F7600B20A03 /* InfoPlist.strings */; };
 		B35532D41AF93F7600B20A03 /* IPhoneScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B35532D31AF93F7600B20A03 /* IPhoneScreenTests.m */; };
+		B35532DF1AF93FA700B20A03 /* Icon.m in Sources */ = {isa = PBXBuildFile; fileRef = B35532DE1AF93FA700B20A03 /* Icon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B35532CF1AF93F7600B20A03 /* IPhoneScreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IPhoneScreenTests-Info.plist"; sourceTree = "<group>"; };
 		B35532D11AF93F7600B20A03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B35532D31AF93F7600B20A03 /* IPhoneScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneScreenTests.m; sourceTree = "<group>"; };
+		B35532DD1AF93FA700B20A03 /* Icon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Icon.h; path = ../Icon.h; sourceTree = "<group>"; };
+		B35532DE1AF93FA700B20A03 /* Icon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Icon.m; path = ../Icon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				B35532B71AF93F7600B20A03 /* AppDelegate.h */,
 				B35532B81AF93F7600B20A03 /* AppDelegate.m */,
 				B35532BA1AF93F7600B20A03 /* Main.storyboard */,
+				B35532DD1AF93FA700B20A03 /* Icon.h */,
+				B35532DE1AF93FA700B20A03 /* Icon.m */,
 				B35532BD1AF93F7600B20A03 /* ViewController.h */,
 				B35532BE1AF93F7600B20A03 /* ViewController.m */,
 				B35532C01AF93F7600B20A03 /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			files = (
 				B35532BF1AF93F7600B20A03 /* ViewController.m in Sources */,
 				B35532B91AF93F7600B20A03 /* AppDelegate.m in Sources */,
+				B35532DF1AF93FA700B20A03 /* Icon.m in Sources */,
 				B35532B51AF93F7600B20A03 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
